@@ -5,5 +5,5 @@ body {
 
 .cover {
   background-image: url(img/bg.jpg);
-  background-size: cover;
+  background-size: auto;
 }
