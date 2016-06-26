@@ -6,14 +6,20 @@ body {
 .cover {
   background-image: url(img/bg.jpg);
   background-repeat:no-repeat;
-  /*background-size: upward;*/
-  background-position:top;
+  background-position:center;
 }
 
-.flex-container{
+.body-div{
   display: flex;
+  flex-flow: row wrap;
 }
 
-.flex-item{
-  flex:1;
+.body-div-header{
+  order: 1;
+  height: 100px;
+  flex:0 1 100%;
+}
+
+.flex-links{
+  flex:3;
 }
