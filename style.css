@@ -5,5 +5,15 @@ body {
 
 .cover {
   background-image: url(img/bg.jpg);
-  background-size: auto;
+  /*background-size: auto;*/
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-item{
+  flex:1;
 }
