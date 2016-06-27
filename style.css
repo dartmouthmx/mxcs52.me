@@ -7,17 +7,17 @@ body {
   background-image: url(img/bg.jpg);
   background-repeat:no-repeat;
   background-position:center;
+  background-size:cover;
 }
 
-.body-div{
-  display: flex;
+div{
+  display:flex;
   flex-flow: row wrap;
 }
 
-.body-header{
+/*.body-header{
   text-align: left;
-  flex:1;
-}
+}*/
 
 .body-main{
   text-align:center;
@@ -25,8 +25,11 @@ body {
 
 .float-right{
   float:right;
+  padding-left: 20px;
+  list-style:none;
 }
 
-.float-left{
+.link{
 float:left;
+/*display:flex;*/
 }
