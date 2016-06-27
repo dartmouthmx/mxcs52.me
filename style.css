@@ -15,10 +15,12 @@ body {
 }
 
 .body-header{
+  text-align:left;
   height: 100px;
   flex:1;
 }
 
 .body-main{
+  text-align:center;
   justify-content: center;
 }
