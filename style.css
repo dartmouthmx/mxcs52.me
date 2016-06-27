@@ -14,12 +14,11 @@ body {
   flex-flow: row wrap;
 }
 
-.body-div-header{
-  order: 1;
+.body-header{
   height: 100px;
-  flex:0 1 100%;
+  flex:1;
 }
 
-.flex-links{
-  flex:3;
+.body-main{
+  justify-content: center;
 }
