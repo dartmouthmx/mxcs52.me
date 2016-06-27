@@ -15,12 +15,18 @@ body {
 }
 
 .body-header{
-  text-align:left;
-  height: 100px;
+  text-align: left;
   flex:1;
 }
 
 .body-main{
   text-align:center;
-  justify-content: center;
+}
+
+.float-right{
+  float:right;
+}
+
+.float-left{
+float:left;
 }
